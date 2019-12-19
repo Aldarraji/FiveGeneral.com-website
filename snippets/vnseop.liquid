@@ -1,0 +1,23 @@
+{% assign current_day = "now" | date: "%e" %}{% assign current_sum_val = current_day | plus: product.id %}{% assign current_cycle_day = current_sum_val | modulo:11 %}<div id='vnpptxt_wrp' style='text-align:left;background:#ffffff;border:1px solid #ffffff;font-size:14px;color:#000000;padding:0px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; margin:10px 0px'>{% if current_cycle_day == 0 %}The {{product.title}} is a sensational customer favorite, and we hope you like it just as much.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 1 %}Every product is unique, just like you. If you're looking for a product that fits the mold of your life, the {{product.title}} is for you.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 2 %}The {{product.title}} is the yin, to your yang. You've found what you're looking for.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 3 %}On the fence about this {{product.title}}? Don't be. Let our satisfaction guarantee address your concerns.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 4 %}Life is too short to live without the {{product.title}}. Be happy. Be Content. Be Satisfied.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 5 %}The {{product.title}} is the product you didn't think you need, but once you have it, something you won't want to live without.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 6 %}Imagine if you could be satisfied and content with your purchase. That can very much be your reality with the {{product.title}}. <br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 7 %}The {{product.title}} is evocative, to say the least, but that's why you're drawn to it in the first place.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 8 %}The {{product.title}} destined to impress, and priced at only {{product.price | money}}, for a limited time.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 9 %}The {{product.title}} is far and away, one of our most popular items. People can't seem to get enough of it.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% elsif current_cycle_day == 10 %}The {{product.title}} was built with people like you in mind. Something to keep you happy. Every. Single. Day.<br />
+<br />
+Inventory Last Updated: {{ 'now' | date: '%b %d, %Y' }}{% else %}{% endif %}</div>
