@@ -4,6 +4,6 @@ To edit code on PC you need VS Code with the .liquid extension.
 Note: the items that was imported is from www.aliexpress.com/
 
 ##Screenshots from website
-https://github.com/Aldarraji/FiveGeneral.com-website/blob/master/Screenshots/pc1.JPG
-https://github.com/Aldarraji/FiveGeneral.com-website/blob/master/Screenshots/phone1.JPG
-https://github.com/Aldarraji/FiveGeneral.com-website/blob/master/Screenshots/tablet1.JPG
+[PC View](https://github.com/Aldarraji/FiveGeneral.com-website/blob/master/Screenshots/pc1.JPG)
+[Phone View](https://github.com/Aldarraji/FiveGeneral.com-website/blob/master/Screenshots/phone1.JPG)
+[Tablet View](https://github.com/Aldarraji/FiveGeneral.com-website/blob/master/Screenshots/tablet1.JPG)
